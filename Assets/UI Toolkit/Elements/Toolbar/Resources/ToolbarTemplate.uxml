@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Elements/Toolbar/Resources/ToolbarStyle.uss?fileID=7433441132597879392&amp;guid=8d25dfa70e49ea6489b3b433f2180ffd&amp;type=3#ToolbarStyle" />
+    <ui:VisualElement name="toolbar-container" class="toolbar-container">
+        <ui:Button name="nav-button" class="nav-button" style="background-image: url(&apos;project://database/Assets/Icons/Arrow-black-24/2x/outline_arrow_back_black_24dp.png?fileID=21300000&amp;guid=a11bf51f671d57040a275f61a247b0eb&amp;type=3#outline_arrow_back_black_24dp&apos;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+        <ui:Label text="Title" picking-mode="Ignore" name="title" class="toolbar-title" />
+    </ui:VisualElement>
+</ui:UXML>

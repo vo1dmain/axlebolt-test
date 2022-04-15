@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Main.uss?fileID=7433441132597879392&amp;guid=081ae735ae6e30844b76312286a98a72&amp;type=3#Main" />
+    <ui:VisualElement picking-mode="Ignore" focusable="true" name="Screen" class="container" />
+</ui:UXML>

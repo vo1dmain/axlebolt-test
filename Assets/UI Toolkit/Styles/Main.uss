@@ -1,0 +1,61 @@
+.menu-group {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.menu-button {
+    font-size: 20px;
+    -unity-font-style: bold;
+    flex-wrap: wrap;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(25, 118, 210);
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    min-width: 250px;
+}
+
+.menu-button:hover {
+    background-color: rgb(0, 75, 160);
+}
+
+.container {
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.menu-slider {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.global-message {
+    font-size: 120px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}

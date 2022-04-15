@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Main.uss?fileID=7433441132597879392&amp;guid=081ae735ae6e30844b76312286a98a72&amp;type=3#Main" />
+    <ui:VisualElement name="Settings" picking-mode="Ignore" class="menu-group" style="justify-content: flex-start; align-items: stretch; padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: rgb(255, 255, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; -unity-background-scale-mode: stretch-to-fill; display: flex; visibility: visible; max-width: 60%; width: 488px;">
+        <Assets.Scripts.UI.Elements.Toolbar title="Settings" />
+        <ui:ScrollView style="flex-wrap: wrap;">
+            <ui:Slider picking-mode="Ignore" label="Max Speed" value="0" high-value="100" name="SpeedSlider" class="menu-slider" />
+            <ui:Slider picking-mode="Ignore" label="Acceleration" value="0" high-value="100" name="AccelerationSlider" class="menu-slider" />
+            <ui:Slider picking-mode="Ignore" label="Repulsion Field Radius" value="0" high-value="100" name="RepulsionRadiusSlider" class="menu-slider" />
+            <ui:Slider picking-mode="Ignore" label="Cooldown Distance" value="0" high-value="100" name="CooldownDistanceSlider" class="menu-slider" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21180086dd7d8c24c9e29062e8b35374, type: 3}
+  m_Name: Settings Controller
+  m_EditorClassIdentifier: 
+  _motionSpec: {fileID: 11400000, guid: 36c475e9d2d6b334a8a7e99f723cc1d6, type: 2}
+  _fieldSpec: {fileID: 11400000, guid: c3fe87e01d004064295c6acf5694b6b0, type: 2}

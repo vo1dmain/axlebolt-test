@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ca2ef860af0a846b718d271ee7a008, type: 3}
+  m_Name: Main Nav Graph
+  m_EditorClassIdentifier: 
+  _startNodeId: main_menu
+  _nodes:
+  - _id: main_menu
+    _section: {fileID: 11400000, guid: c3113bbe7b327d74887d64a214c13dfe, type: 2}
+  - _id: settings_menu
+    _section: {fileID: 11400000, guid: 45a5136386a5a3c458ee1852ea1facd3, type: 2}
+  - _id: finish_screen
+    _section: {fileID: 11400000, guid: 36c14143c62f36f4688d00822ba12299, type: 2}
